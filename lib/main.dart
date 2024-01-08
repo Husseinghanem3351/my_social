@@ -24,10 +24,10 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: FirebaseOptions(
-        apiKey: 'AIzaSyBtNcoOKyKfIPV8vYiJsS0mq0TlLXYXrbk',
-        appId: '1:760415567408:android:92e55301bc45e53b0cb7f5',
-        messagingSenderId: '760415567408',
-        projectId: 'social-app-7837b'),
+        apiKey: 'apiKey',
+        appId: 'appId',
+        messagingSenderId: 'messagingSenderId',
+        projectId: 'projectId'),
   );
   //var token = await FirebaseMessaging.instance.getToken();
   // FirebaseMessaging.onMessage.listen((event) {
